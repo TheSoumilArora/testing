@@ -4,13 +4,6 @@
 #include <BLDCMotor.h>
 #include <RTTTL.h>
 
-BLDCMotor motor1 = BLDCMotor(17,16,4,7,0);
-BLDCSpeaker speaker1 = BLDCSpeaker(&motor1, 1.5, 50, 0);
-TonePlayer player;
-
-const char *songs[] = {
-    RTTTL_PINK_PANTHER,
-    RTTTL_SIMPSONS,
     RTTTL_USA,
     RTTTL_SUPER_MARIO_BROS,
     RTTTL_SUPER_MARIO_BROS_POLY,
@@ -21,7 +14,7 @@ const char *songs[] = {
 
 int song_index = 0;
 int song_count = sizeof(songs) / sizeof(char *);
-
+ettyreyh
 void setup()
 {
   Serial.begin(115200);
